@@ -1,0 +1,7 @@
+.todo-list ul.list li .close {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    user-select: none;
+}
