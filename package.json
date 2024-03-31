@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vahe71.github.io/react-redux-todolist",
+  "homepage": "./src",
   "name": "learn-www",
   "version": "0.1.0",
   "private": true,
