@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-redux-todolist/static/css/main.bdfa54b1.css",
+    "main.js": "/react-redux-todolist/static/js/main.a89d5340.js",
+    "static/media/Poppins-Light.ttf": "/react-redux-todolist/static/media/Poppins-Light.25b96349cf564e8ba0dc.ttf",
+    "static/media/Merriweather-Light.ttf": "/react-redux-todolist/static/media/Merriweather-Light.c3e7a8bc238902aee905.ttf",
+    "static/media/editmsg.png": "/react-redux-todolist/static/media/editmsg.cac40620887a9b0c6581.png",
+    "static/media/trash.png": "/react-redux-todolist/static/media/trash.201b5c153498691194ac.png",
+    "index.html": "/react-redux-todolist/index.html",
+    "main.bdfa54b1.css.map": "/react-redux-todolist/static/css/main.bdfa54b1.css.map",
+    "main.a89d5340.js.map": "/react-redux-todolist/static/js/main.a89d5340.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdfa54b1.css",
+    "static/js/main.a89d5340.js"
+  ]
+}
