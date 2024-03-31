@@ -1,0 +1,51 @@
+.todo-list .todo-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.todo-list .todo-header.input-focused {
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+}
+.todo-list .todo-header.input-focused form {
+    width: 100%;
+}
+.todo-list .todo-header form {
+    transition: 0.5s;
+    width: 170px;
+    position: relative;
+}
+.todo-list .todo-header input {
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color:#efe8ef;
+    padding: 10px 40px 10px 10px;
+    font: 18px sans-serif;
+    width: 100%;
+}
+.todo-list .todo-header button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #f4f0f0;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    font: 22px sans-serif;
+    transition: 0.3s;
+    display: none;
+}
+.todo-list .todo-header.input-focused button {
+    display: block;
+}
+.todo-list .todo-header button:hover {
+    transform: rotate(-90deg);
+}

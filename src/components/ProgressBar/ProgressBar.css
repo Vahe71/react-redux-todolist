@@ -1,0 +1,30 @@
+.progress-bar {
+    margin-top: 10px;
+}
+.progress-bar .track {
+    border: 2px solid red;
+    height: 25px;
+    border-radius: 15px;
+    padding: 2px;
+    text-align: center;
+    line-height: 15px;
+    color: #000;
+    position: relative;
+}
+.progress-bar .track .progress {
+    background-color: transparent;
+    border-radius: 15px;
+    height: 100%;
+    transition: 0.2s;
+}
+.progress-bar .track .progress-size {
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    font: bold 15px 'poppins';
+    user-select: none;
+}
+.progress-bar .track .progress-size.light {
+    color: #fff;
+    text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
+}

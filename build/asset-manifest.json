@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.528df5c3.css",
+    "main.js": "/static/js/main.fc217980.js",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.25b96349cf564e8ba0dc.ttf",
+    "static/media/Merriweather-Light.ttf": "/static/media/Merriweather-Light.c3e7a8bc238902aee905.ttf",
+    "static/media/editmsg.png": "/static/media/editmsg.cac40620887a9b0c6581.png",
+    "static/media/trash.png": "/static/media/trash.201b5c153498691194ac.png",
+    "index.html": "/index.html",
+    "main.528df5c3.css.map": "/static/css/main.528df5c3.css.map",
+    "main.fc217980.js.map": "/static/js/main.fc217980.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.528df5c3.css",
+    "static/js/main.fc217980.js"
+  ]
+}

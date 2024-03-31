@@ -1,0 +1,36 @@
+.todo-list .completed-todo {
+    margin-top: auto;
+    font-family: "poppins";
+    border-top: 1px solid #777;
+}
+.todo-list .completed-todo .completed-info {
+    display: flex;
+    justify-content: space-between;
+}
+.todo-list .completed-todo .completed-info span {
+    font-size: 20px;
+}
+.todo-list .completed-todo .completed-buttons {
+    display: flex;
+    gap: 20px;
+    user-select: none;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.todo-list .completed-todo .completed-buttons .delete-completed {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.todo-list .completed-todo .completed-buttons .deleted-todos {
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .todo-list .completed-todo .completed-info {
+        flex-direction: column;
+    }
+}
+
